@@ -4,6 +4,7 @@ Homework for section 18.3
 This assignment walks through the steps needed to create a tesnet blockchain for a fictitous organization
 
 # Setup Steps
+(note: full code and steps are located in puppethcnfig.txt found in this repository)
 1. Two nodes were create, Node 1 and Node 2 resulting in the following details. 
 Node 1:
 
