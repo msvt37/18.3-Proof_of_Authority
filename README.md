@@ -35,4 +35,26 @@ Note the "unlock" section references the key of the second node: 0x9b5b12CC5CDA5
 
 At this point, both nodes should be up and mining. 
 
+# Verify in MyCrypto GUI
+
+1. Launch the MyCrypto app.
+2. Once open, click on "Change Network" in the botton left of the screen.
+3. We will use "Custom" in the list of options.
+4. This will open a form and we will enter the following:  
+      Node Name: Anything you like
+      Network: Custom
+      Network Name: abbynet
+      Currency: ETH
+      Chain ID: 610
+      URL: http://127.0.0.1:8545   (This is the local loopback address and the default RPC port)
+ 5. We now hit "Save & Use Custom Node"
+ 6. If we are successful, our MyCrypto will not have access to the Mnemonic Phrase and the only two options (Under View and Send) will be "Keystore File" and "Private Key"
+ 7. We will chose "KeyStore File"
+ 8. This will open another screen and we will browse to the Node1 directory and we will select the "keystore" file.
+ 9. The password "passowrd" wil unlock
+ 10.The account is now open in MyCrypto
+ 11.We will now send tokens to the address in Node2: 0x9b5b12CC5CDA5C3677150d075Dc02fa9d677708C
+ 12. Send the transaction at this point.
+ 13. <img width="998" alt="TXstatus" src="https://user-images.githubusercontent.com/60984494/123525269-5f2e2000-d69d-11eb-87ec-4accec791567.PNG">
+
 
